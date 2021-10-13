@@ -2,44 +2,48 @@ package com.example.demo.service;
 
 import com.example.demo.mapper.JsonRepository;
 import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 import com.google.gson.stream.JsonReader;
 import com.jayway.jsonpath.JsonPath;
-import net.minidev.json.parser.JSONParser;
-import net.minidev.json.parser.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
-import java.util.List;
-
+import java.util.*;
 
 @Component
 public class JsonService {
-
     @Value("${reader.keys}")
     private String keys;
-
     @Autowired
     private JsonRepository jsonMapper;
 
-
-    public void convert() {
-
-        try {
-            File jsonFile = new File("C:\\Users\\andrei.lisa\\Folder\\doc1.json");
-            JSONParser parser = new JSONParser();
-            Object obj = parser.parse(new FileReader(jsonFile));
-            for (String key : keys.split(",")) {
-                Object result = JsonPath.read(obj, key);
-
-                jsonMapper.save(result.toString());
-            }
-
-        } catch (IOException | ParseException ex) {
-            ex.printStackTrace();
+    public void parseJsonElement(JsonElement jsonElement) {
+        if (jsonElement.isJsonArray()) {
+            parseJsonArray(jsonElement.getAsJsonArray());
+        } else if (jsonElement.isJsonObject()) {
+            parseJsonObject(jsonElement.getAsJsonObject());
         }
+    }
 
+    public void parseJsonArray(JsonArray array) {
+        for (JsonElement value : array) {
+            parseJsonElement(value);
+        }
+    }
+
+    public void parseJsonObject(JsonObject object) {
+        Set<Map.Entry<String, JsonElement>> members = object.entrySet();
+        for (Map.Entry<String, JsonElement> value : members) {
+            for (String key : keys.split(",")) {
+                if (value.getKey().contains(key))
+                    System.out.println(value.getValue());
+                parseJsonElement(value.getValue());
+            }
+        }
     }
 
     public void write() throws IOException {
@@ -52,16 +56,26 @@ public class JsonService {
         jsonReader.beginObject();
         jsonReader.nextName();
         jsonReader.beginArray();
-
+        Gson gson = new Gson();
         while (jsonReader.hasNext()) {
-            Object obj = new Gson().fromJson(jsonReader, Object.class);
-            for (String key : keys.split(",")) {
-                List<String> result = JsonPath.read(obj, key);
-                System.out.println(result);
-            }
+            Object obj = gson.fromJson(jsonReader, Object.class);
+            StringBuilder builder = new StringBuilder();
 
+            builder.append("insert into json2 (").append(keys).append(")").append("values(");
+            for (String key : keys.split(",")) {
+                String value = JsonPath.read(obj, key);
+                builder.append("'").append(value).append("',");
+
+            }
+            builder.deleteCharAt(builder.length()-1);
+            builder.append(")");
+            jsonMapper.save(builder.toString());
+
+            System.out.println(builder);
+
+
+            }
         }
 
     }
 
-}
