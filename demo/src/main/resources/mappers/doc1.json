@@ -1,0 +1,2199 @@
+
+  {
+    "companies": {
+      "entity": [
+        {
+          "australianBusinessNumber": null,
+          "australianCompanyNumber": null,
+          "australianServiceAddress": null,
+          "company": [
+            {
+              "annualReturnFilingMonth": "11",
+              "annualReturnLastFiled": null,
+              "countryOfOrigin": null,
+              "extensiveShareholding": "false",
+              "financialReportFilingMonth": null,
+              "hasConstitutionFiled": "false",
+              "nzsxCode": null,
+              "overseasCompany": "false",
+              "shareholding": [
+                {
+                  "numberOfShares": "100",
+                  "shareAllocation": [
+                    {
+                      "allocation": "100",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-19T09:33:10",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Mishelle",
+                              "fullName": "Mishelle Elizabeth AUGUSTINE",
+                              "lastName": "AUGUSTINE",
+                              "middleNames": "Elizabeth"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "director",
+                          "vacationDate": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "stockExchangeListed": null
+            }
+          ],
+          "emailAddress": [
+            {
+              "emailAddress": null,
+              "emailPurpose": null,
+              "emailPurposeDescription": null,
+              "startDate": null,
+              "uniqueIdentifier": null
+            }
+          ],
+          "entityName": "HAMMER AND NAILS CONSTRUCTION LIMITED",
+          "entityNames": [
+            {
+              "endDate": null,
+              "entityName": "HAMMER AND NAILS CONSTRUCTION LIMITED",
+              "startDate": "2017-05-17T13:19:29"
+            }
+          ],
+          "entityStatus": [
+            {
+              "comment": null,
+              "endDate": null,
+              "entityStatus": "50",
+              "startDate": "2017-05-19T09:33:10",
+              "statusReasonCode": null
+            }
+          ],
+          "entityStatusCode": "50",
+          "entityStatusDescription": "Registered",
+          "entityTypeCode": "LTD",
+          "entityTypeDescription": "NZ Limited Company",
+          "gstEffectiveDate": null,
+          "gstStatus": null,
+          "historicShareholder": [
+            {
+              "appointmentDate": "2018-06-06T09:46:07",
+              "historicIndividualShareholder": [
+                {
+                  "firstName": "Jase",
+                  "fullName": "Jase Laurance AUGUSTINE",
+                  "lastName": "AUGUSTINE",
+                  "middleNames": "Laurance"
+                }
+              ],
+              "historicOtherShareholder": [],
+              "historicShareholderAddress": [],
+              "type": "individual",
+              "vacationDate": "2018-09-19T11:06:33"
+            }
+          ],
+          "industryClassification": [
+            {
+              "classificationCode": "E324220",
+              "classificationDescription": "E324220 Carpentry, joinery - on construction projects",
+              "uniqueIdentifier": null
+            }
+          ],
+          "insolvencyDetails": [],
+          "lastUpdatedDate": "2018-11-05T11:06:33",
+          "locationIdentifier": null,
+          "nzbn": "9429046138316",
+          "otherAddress": [],
+          "phoneNumber": [],
+          "physicalAddress": [
+            {
+              "address1": "1509a Dairy Flat Highway",
+              "address2": "Rd 4",
+              "address3": "Albany",
+              "address4": null,
+              "careOf": "Mishelle Augustine",
+              "countryCode": "NZ",
+              "endDate": "2018-09-27T00:00:00",
+              "pafID": "2147881",
+              "postCode": "0794",
+              "startDate": "2017-05-19T09:33:10",
+              "uniqueIdentifier": null
+            },
+            {
+              "address1": "1509 Dairy Flat Highway",
+              "address2": "Rd 4",
+              "address3": "Dairy Flat",
+              "address4": null,
+              "careOf": "Mishelle Augustine",
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "2027457",
+              "postCode": "0794",
+              "startDate": "2018-09-27T00:00:00",
+              "uniqueIdentifier": null
+            }
+          ],
+          "postalAddress": [],
+          "principalPlaceOfActivity": [],
+          "privacySettings": null,
+          "registeredAddress": [
+            {
+              "address1": "1509 Dairy Flat Highway",
+              "address2": "Rd 4",
+              "address3": "Dairy Flat",
+              "address4": null,
+              "careOf": "Mishelle Augustine",
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "2027457",
+              "postCode": "0794",
+              "startDate": "2018-09-27T00:00:00",
+              "uniqueIdentifier": null
+            },
+            {
+              "address1": "1509a Dairy Flat Highway",
+              "address2": "Rd 4",
+              "address3": "Albany",
+              "address4": null,
+              "careOf": "Mishelle Augustine",
+              "countryCode": "NZ",
+              "endDate": "2018-09-27T00:00:00",
+              "pafID": "2147881",
+              "postCode": "0794",
+              "startDate": "2017-05-19T09:33:10",
+              "uniqueIdentifier": null
+            }
+          ],
+          "registrationDate": "2017-05-19T09:33:10",
+          "roles": [
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Mishelle",
+                  "lastName": "AUGUSTINE",
+                  "middleNames": "Elizabeth",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "2017-05-19T09:33:10",
+              "uniqueIdentifier": null
+            }
+          ],
+          "sourceRegister": "LTD",
+          "sourceRegisterUniqueIdentifier": "6285847",
+          "startDate": "2017-05-19T09:33:10",
+          "supportingInformation": null,
+          "tradingNames": [],
+          "ultimateHoldingCompany": [
+            {
+              "country": null,
+              "effectiveDate": null,
+              "name": null,
+              "number": null,
+              "nzbn": null,
+              "type": null,
+              "ultimateHoldingCompanyAddress": [
+                {
+                  "address1": null,
+                  "address2": null,
+                  "address3": null,
+                  "address4": null,
+                  "careOf": null,
+                  "countryCode": null,
+                  "description": null,
+                  "endDate": null,
+                  "pafId": null,
+                  "postCode": null,
+                  "startDate": null,
+                  "uniqueIdentifier": null
+                }
+              ],
+              "yn": "false"
+            }
+          ],
+          "website": []
+        },
+        {
+          "australianBusinessNumber": null,
+          "australianCompanyNumber": null,
+          "australianServiceAddress": null,
+          "company": [
+            {
+              "annualReturnFilingMonth": "4",
+              "annualReturnLastFiled": null,
+              "countryOfOrigin": null,
+              "extensiveShareholding": "false",
+              "financialReportFilingMonth": null,
+              "hasConstitutionFiled": "false",
+              "nzsxCode": null,
+              "overseasCompany": "false",
+              "shareholding": [
+                {
+                  "numberOfShares": "1000000",
+                  "shareAllocation": [
+                    {
+                      "allocation": "50000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2019-04-17T16:49:28",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Gerald",
+                              "fullName": "Gerald Mark HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "Mark"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "400000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-24T08:23:20",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Roberta",
+                              "fullName": "Roberta Lesley HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "Lesley"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "50000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2019-04-17T16:49:28",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Jane",
+                              "fullName": "Jane Maree HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "Maree"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "50000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2019-04-17T16:49:28",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Bernadette",
+                              "fullName": "Bernadette Josephine HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "Josephine"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "50000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2019-04-17T16:49:28",
+                          "individualShareholder": [
+                            {
+                              "firstName": "James",
+                              "fullName": "James Walter HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "Walter"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "400000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-24T08:23:20",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Michael",
+                              "fullName": "Michael George HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "George"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "director",
+                          "vacationDate": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "stockExchangeListed": null
+            }
+          ],
+          "emailAddress": [
+            {
+              "emailAddress": null,
+              "emailPurpose": null,
+              "emailPurposeDescription": null,
+              "startDate": null,
+              "uniqueIdentifier": null
+            }
+          ],
+          "entityName": "AGRILINE LIMITED",
+          "entityNames": [
+            {
+              "endDate": null,
+              "entityName": "AGRILINE LIMITED",
+              "startDate": "2017-05-17T13:23:51"
+            }
+          ],
+          "entityStatus": [
+            {
+              "comment": null,
+              "endDate": null,
+              "entityStatus": "50",
+              "startDate": "2017-05-24T08:23:21",
+              "statusReasonCode": null
+            }
+          ],
+          "entityStatusCode": "50",
+          "entityStatusDescription": "Registered",
+          "entityTypeCode": "LTD",
+          "entityTypeDescription": "NZ Limited Company",
+          "gstEffectiveDate": null,
+          "gstStatus": null,
+          "historicShareholder": [],
+          "industryClassification": [
+            {
+              "classificationCode": "F341110",
+              "classificationDescription": "F341110 Agricultural machinery or equipment wholesaling",
+              "uniqueIdentifier": null
+            }
+          ],
+          "insolvencyDetails": [],
+          "lastUpdatedDate": "2019-04-17T16:49:28",
+          "locationIdentifier": null,
+          "nzbn": "9429046144546",
+          "otherAddress": [],
+          "phoneNumber": [],
+          "physicalAddress": [
+            {
+              "address1": "47 Waimea Street",
+              "address2": "Croydon",
+              "address3": "Gore",
+              "address4": null,
+              "careOf": "MG & RL HAMLIN",
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "2816357",
+              "postCode": "9710",
+              "startDate": "2017-05-24T08:23:20",
+              "uniqueIdentifier": null
+            }
+          ],
+          "postalAddress": [],
+          "principalPlaceOfActivity": [],
+          "privacySettings": null,
+          "registeredAddress": [
+            {
+              "address1": "47 Waimea Street",
+              "address2": "Croydon",
+              "address3": "Gore",
+              "address4": null,
+              "careOf": "MG & RL HAMLIN",
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "2816357",
+              "postCode": "9710",
+              "startDate": "2017-05-24T08:23:20",
+              "uniqueIdentifier": null
+            }
+          ],
+          "registrationDate": "2017-05-24T08:23:20",
+          "roles": [
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Michael",
+                  "lastName": "HAMLIN",
+                  "middleNames": "George",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "2017-05-24T08:23:20",
+              "uniqueIdentifier": null
+            }
+          ],
+          "sourceRegister": "LTD",
+          "sourceRegisterUniqueIdentifier": "6285848",
+          "startDate": "2017-05-24T08:23:20",
+          "supportingInformation": null,
+          "tradingNames": [],
+          "ultimateHoldingCompany": [
+            {
+              "country": null,
+              "effectiveDate": null,
+              "name": null,
+              "number": null,
+              "nzbn": null,
+              "type": null,
+              "ultimateHoldingCompanyAddress": [
+                {
+                  "address1": null,
+                  "address2": null,
+                  "address3": null,
+                  "address4": null,
+                  "careOf": null,
+                  "countryCode": null,
+                  "description": null,
+                  "endDate": null,
+                  "pafId": null,
+                  "postCode": null,
+                  "startDate": null,
+                  "uniqueIdentifier": null
+                }
+              ],
+              "yn": "false"
+            }
+          ],
+          "website": []
+        },
+        {
+          "australianBusinessNumber": null,
+          "australianCompanyNumber": null,
+          "australianServiceAddress": null,
+          "company": [
+            {
+              "annualReturnFilingMonth": "4",
+              "annualReturnLastFiled": null,
+              "countryOfOrigin": null,
+              "extensiveShareholding": "false",
+              "financialReportFilingMonth": null,
+              "hasConstitutionFiled": "false",
+              "nzsxCode": null,
+              "overseasCompany": "false",
+              "shareholding": [
+                {
+                  "numberOfShares": "1000000",
+                  "shareAllocation": [
+                    {
+                      "allocation": "50000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2019-04-17T16:49:28",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Gerald",
+                              "fullName": "Gerald Mark HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "Mark"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "400000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-24T08:23:20",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Roberta",
+                              "fullName": "Roberta Lesley HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "Lesley"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "50000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2019-04-17T16:49:28",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Jane",
+                              "fullName": "Jane Maree HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "Maree"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "50000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2019-04-17T16:49:28",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Bernadette",
+                              "fullName": "Bernadette Josephine HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "Josephine"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "50000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2019-04-17T16:49:28",
+                          "individualShareholder": [
+                            {
+                              "firstName": "James",
+                              "fullName": "James Walter HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "Walter"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "400000",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-24T08:23:20",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Michael",
+                              "fullName": "Michael George HAMLIN",
+                              "lastName": "HAMLIN",
+                              "middleNames": "George"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "director",
+                          "vacationDate": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "stockExchangeListed": null
+            }
+          ],
+          "emailAddress": [
+            {
+              "emailAddress": null,
+              "emailPurpose": null,
+              "emailPurposeDescription": null,
+              "startDate": null,
+              "uniqueIdentifier": null
+            }
+          ],
+          "entityName": "AGRILINE LIMITED",
+          "entityNames": [
+            {
+              "endDate": null,
+              "entityName": "AGRILINE LIMITED",
+              "startDate": "2017-05-17T13:23:51"
+            }
+          ],
+          "entityStatus": [
+            {
+              "comment": null,
+              "endDate": null,
+              "entityStatus": "50",
+              "startDate": "2017-05-24T08:23:21",
+              "statusReasonCode": null
+            }
+          ],
+          "entityStatusCode": "50",
+          "entityStatusDescription": "Registered",
+          "entityTypeCode": "LTD",
+          "entityTypeDescription": "NZ Limited Company",
+          "gstEffectiveDate": null,
+          "gstStatus": null,
+          "historicShareholder": [],
+          "industryClassification": [
+            {
+              "classificationCode": "F341110",
+              "classificationDescription": "F341110 Agricultural machinery or equipment wholesaling",
+              "uniqueIdentifier": null
+            }
+          ],
+          "insolvencyDetails": [],
+          "lastUpdatedDate": "2019-04-17T16:49:28",
+          "locationIdentifier": null,
+          "nzbn": "9429046144546",
+          "otherAddress": [],
+          "phoneNumber": [],
+          "physicalAddress": [
+            {
+              "address1": "47 Waimea Street",
+              "address2": "Croydon",
+              "address3": "Gore",
+              "address4": null,
+              "careOf": "MG & RL HAMLIN",
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "2816357",
+              "postCode": "9710",
+              "startDate": "2017-05-24T08:23:20",
+              "uniqueIdentifier": null
+            }
+          ],
+          "postalAddress": [],
+          "principalPlaceOfActivity": [],
+          "privacySettings": null,
+          "registeredAddress": [
+            {
+              "address1": "47 Waimea Street",
+              "address2": "Croydon",
+              "address3": "Gore",
+              "address4": null,
+              "careOf": "MG & RL HAMLIN",
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "2816357",
+              "postCode": "9710",
+              "startDate": "2017-05-24T08:23:20",
+              "uniqueIdentifier": null
+            }
+          ],
+          "registrationDate": "2017-05-24T08:23:20",
+          "roles": [
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Michael",
+                  "lastName": "HAMLIN",
+                  "middleNames": "George",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "2017-05-24T08:23:20",
+              "uniqueIdentifier": null
+            }
+          ],
+          "sourceRegister": "LTD",
+          "sourceRegisterUniqueIdentifier": "6285848",
+          "startDate": "2017-05-24T08:23:20",
+          "supportingInformation": null,
+          "tradingNames": [],
+          "ultimateHoldingCompany": [
+            {
+              "country": null,
+              "effectiveDate": null,
+              "name": null,
+              "number": null,
+              "nzbn": null,
+              "type": null,
+              "ultimateHoldingCompanyAddress": [
+                {
+                  "address1": null,
+                  "address2": null,
+                  "address3": null,
+                  "address4": null,
+                  "careOf": null,
+                  "countryCode": null,
+                  "description": null,
+                  "endDate": null,
+                  "pafId": null,
+                  "postCode": null,
+                  "startDate": null,
+                  "uniqueIdentifier": null
+                }
+              ],
+              "yn": "false"
+            }
+          ],
+          "website": []
+        },
+        {
+          "australianBusinessNumber": null,
+          "australianCompanyNumber": null,
+          "australianServiceAddress": null,
+          "company": [
+            {
+              "annualReturnFilingMonth": "6",
+              "annualReturnLastFiled": null,
+              "countryOfOrigin": null,
+              "extensiveShareholding": "false",
+              "financialReportFilingMonth": null,
+              "hasConstitutionFiled": "false",
+              "nzsxCode": null,
+              "overseasCompany": "false",
+              "shareholding": [
+                {
+                  "numberOfShares": "0",
+                  "shareAllocation": [
+                    {
+                      "allocation": "1",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "1993-09-30T00:00:00",
+                          "individualShareholder": [
+                            {
+                              "firstName": "JOHN",
+                              "fullName": "JOHN MURRAY RESTALL",
+                              "lastName": "RESTALL",
+                              "middleNames": "MURRAY"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "99",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "1993-09-30T00:00:00",
+                          "individualShareholder": [
+                            {
+                              "firstName": "GRANTALEXANDER",
+                              "fullName": "GRANTALEXANDER  MAGORIAN",
+                              "lastName": "MAGORIAN",
+                              "middleNames": null
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "stockExchangeListed": null
+            }
+          ],
+          "emailAddress": [
+            {
+              "emailAddress": null,
+              "emailPurpose": null,
+              "emailPurposeDescription": null,
+              "startDate": null,
+              "uniqueIdentifier": null
+            }
+          ],
+          "entityName": "PETROUS ENTERPRISES LIMITED",
+          "entityNames": [
+            {
+              "endDate": null,
+              "entityName": "PETROUS ENTERPRISES LIMITED",
+              "startDate": "1993-09-30T00:00:00"
+            }
+          ],
+          "entityStatus": [
+            {
+              "comment": null,
+              "endDate": "2002-11-18T00:00:00",
+              "entityStatus": "50",
+              "startDate": "1993-09-30T00:00:00",
+              "statusReasonCode": null
+            },
+            {
+              "comment": null,
+              "endDate": null,
+              "entityStatus": "80",
+              "startDate": "2002-11-18T00:00:00",
+              "statusReasonCode": null
+            }
+          ],
+          "entityStatusCode": "80",
+          "entityStatusDescription": "Removed",
+          "entityTypeCode": "LTD",
+          "entityTypeDescription": "NZ Limited Company",
+          "gstEffectiveDate": null,
+          "gstStatus": null,
+          "historicShareholder": [],
+          "industryClassification": [],
+          "insolvencyDetails": [],
+          "lastUpdatedDate": "2013-11-03T11:32:46",
+          "locationIdentifier": null,
+          "nzbn": "9429038694059",
+          "otherAddress": [],
+          "phoneNumber": [],
+          "physicalAddress": [
+            {
+              "address1": "101 Thames Street",
+              "address2": "Oamaru",
+              "address3": null,
+              "address4": null,
+              "careOf": null,
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": null,
+              "postCode": null,
+              "startDate": "1997-07-01T00:00:00",
+              "uniqueIdentifier": null
+            }
+          ],
+          "postalAddress": [],
+          "principalPlaceOfActivity": [],
+          "privacySettings": null,
+          "registeredAddress": [
+            {
+              "address1": "267 King Edward Street",
+              "address2": "Dunedin",
+              "address3": null,
+              "address4": null,
+              "careOf": null,
+              "countryCode": null,
+              "endDate": "1995-09-09T00:00:00",
+              "pafID": null,
+              "postCode": null,
+              "startDate": "1995-09-09T00:00:00",
+              "uniqueIdentifier": null
+            },
+            {
+              "address1": "101 Thames Street",
+              "address2": "Oamaru",
+              "address3": null,
+              "address4": null,
+              "careOf": null,
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": null,
+              "postCode": null,
+              "startDate": "1995-09-09T00:00:00",
+              "uniqueIdentifier": null
+            }
+          ],
+          "registrationDate": "1993-09-30T00:00:00",
+          "roles": [
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Grant",
+                  "lastName": "MARJORIAN",
+                  "middleNames": "Alexander",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "1993-09-30T00:00:00",
+              "uniqueIdentifier": null
+            },
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": "1994-05-18T00:00:00",
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "John",
+                  "lastName": "RESTALL",
+                  "middleNames": "Murray",
+                  "title": null
+                }
+              ],
+              "roleStatus": "INACTIVE",
+              "roleType": "Director",
+              "startDate": "1993-09-30T00:00:00",
+              "uniqueIdentifier": null
+            },
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": "1995-08-17T00:00:00",
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "David",
+                  "lastName": "TURNBULL",
+                  "middleNames": "Leslie",
+                  "title": null
+                }
+              ],
+              "roleStatus": "INACTIVE",
+              "roleType": "Director",
+              "startDate": "1994-05-18T00:00:00",
+              "uniqueIdentifier": null
+            },
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": "1995-08-17T00:00:00",
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Leonard",
+                  "lastName": "CLEMENT",
+                  "middleNames": "Ross",
+                  "title": null
+                }
+              ],
+              "roleStatus": "INACTIVE",
+              "roleType": "Director",
+              "startDate": "1994-05-18T00:00:00",
+              "uniqueIdentifier": null
+            }
+          ],
+          "sourceRegister": "LTD",
+          "sourceRegisterUniqueIdentifier": "628586",
+          "startDate": "1993-09-30T00:00:00",
+          "supportingInformation": null,
+          "tradingNames": [],
+          "ultimateHoldingCompany": [],
+          "website": []
+        },
+        {
+          "australianBusinessNumber": null,
+          "australianCompanyNumber": null,
+          "australianServiceAddress": null,
+          "company": [
+            {
+              "annualReturnFilingMonth": "7",
+              "annualReturnLastFiled": null,
+              "countryOfOrigin": null,
+              "extensiveShareholding": "false",
+              "financialReportFilingMonth": null,
+              "hasConstitutionFiled": "true",
+              "nzsxCode": null,
+              "overseasCompany": "false",
+              "shareholding": [
+                {
+                  "numberOfShares": "100",
+                  "shareAllocation": [
+                    {
+                      "allocation": "80",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-23T15:20:55",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Scott",
+                              "fullName": "Scott Philip VINING",
+                              "lastName": "VINING",
+                              "middleNames": "Philip"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "director",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "20",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-23T15:20:55",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Robin",
+                              "fullName": "Robin Neil BROWN",
+                              "lastName": "BROWN",
+                              "middleNames": "Neil"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "stockExchangeListed": null
+            }
+          ],
+          "emailAddress": [
+            {
+              "emailAddress": null,
+              "emailPurpose": null,
+              "emailPurposeDescription": null,
+              "startDate": null,
+              "uniqueIdentifier": null
+            }
+          ],
+          "entityName": "BEANZ RS LIMITED",
+          "entityNames": [
+            {
+              "endDate": null,
+              "entityName": "BEANZ RS LIMITED",
+              "startDate": "2017-05-17T13:48:31"
+            }
+          ],
+          "entityStatus": [
+            {
+              "comment": null,
+              "endDate": null,
+              "entityStatus": "50",
+              "startDate": "2017-05-23T15:20:56",
+              "statusReasonCode": null
+            }
+          ],
+          "entityStatusCode": "50",
+          "entityStatusDescription": "Registered",
+          "entityTypeCode": "LTD",
+          "entityTypeDescription": "NZ Limited Company",
+          "gstEffectiveDate": null,
+          "gstStatus": null,
+          "historicShareholder": [],
+          "industryClassification": [
+            {
+              "classificationCode": "H451120",
+              "classificationDescription": "H451120 Coffee shops",
+              "uniqueIdentifier": null
+            }
+          ],
+          "insolvencyDetails": [],
+          "lastUpdatedDate": "2019-08-12T16:10:47",
+          "locationIdentifier": null,
+          "nzbn": "9429046147721",
+          "otherAddress": [],
+          "phoneNumber": [],
+          "physicalAddress": [
+            {
+              "address1": "20 Nottingham Avenue",
+              "address2": "Halswell",
+              "address3": "Christchurch",
+              "address4": null,
+              "careOf": "Scott Vining",
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "963234",
+              "postCode": "8025",
+              "startDate": "2018-03-27T00:00:00",
+              "uniqueIdentifier": null
+            },
+            {
+              "address1": "164 Brookside Road",
+              "address2": "Rolleston",
+              "address3": "Rolleston",
+              "address4": null,
+              "careOf": "Scott Vining",
+              "countryCode": "NZ",
+              "endDate": "2018-03-27T00:00:00",
+              "pafID": "2922484",
+              "postCode": "7614",
+              "startDate": "2017-05-23T15:20:56",
+              "uniqueIdentifier": null
+            }
+          ],
+          "postalAddress": [],
+          "principalPlaceOfActivity": [
+            {
+              "address1": "20 Nottingham Avenue",
+              "address2": "Halswell",
+              "address3": "Christchurch",
+              "address4": null,
+              "careOf": null,
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "963234",
+              "postCode": "8025",
+              "startDate": "2019-08-12T16:10:45",
+              "uniqueIdentifier": null
+            }
+          ],
+          "privacySettings": null,
+          "registeredAddress": [
+            {
+              "address1": "164 Brookside Road",
+              "address2": "Rolleston",
+              "address3": "Rolleston",
+              "address4": null,
+              "careOf": "Scott Vining",
+              "countryCode": "NZ",
+              "endDate": "2018-03-27T00:00:00",
+              "pafID": "2922484",
+              "postCode": "7614",
+              "startDate": "2017-05-23T15:20:56",
+              "uniqueIdentifier": null
+            },
+            {
+              "address1": "20 Nottingham Avenue",
+              "address2": "Halswell",
+              "address3": "Christchurch",
+              "address4": null,
+              "careOf": "Scott Vining",
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "963234",
+              "postCode": "8025",
+              "startDate": "2018-03-27T00:00:00",
+              "uniqueIdentifier": null
+            }
+          ],
+          "registrationDate": "2017-05-23T15:20:55",
+          "roles": [
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Scott",
+                  "lastName": "VINING",
+                  "middleNames": "Philip",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "2017-05-23T15:20:55",
+              "uniqueIdentifier": null
+            }
+          ],
+          "sourceRegister": "LTD",
+          "sourceRegisterUniqueIdentifier": "6285867",
+          "startDate": "2017-05-23T15:20:55",
+          "supportingInformation": null,
+          "tradingNames": [],
+          "ultimateHoldingCompany": [
+            {
+              "country": null,
+              "effectiveDate": null,
+              "name": null,
+              "number": null,
+              "nzbn": null,
+              "type": null,
+              "ultimateHoldingCompanyAddress": [
+                {
+                  "address1": null,
+                  "address2": null,
+                  "address3": null,
+                  "address4": null,
+                  "careOf": null,
+                  "countryCode": null,
+                  "description": null,
+                  "endDate": null,
+                  "pafId": null,
+                  "postCode": null,
+                  "startDate": null,
+                  "uniqueIdentifier": null
+                }
+              ],
+              "yn": "false"
+            }
+          ],
+          "website": []
+        },
+        {
+          "australianBusinessNumber": null,
+          "australianCompanyNumber": null,
+          "australianServiceAddress": null,
+          "company": [
+            {
+              "annualReturnFilingMonth": "8",
+              "annualReturnLastFiled": null,
+              "countryOfOrigin": null,
+              "extensiveShareholding": "false",
+              "financialReportFilingMonth": null,
+              "hasConstitutionFiled": "false",
+              "nzsxCode": null,
+              "overseasCompany": "false",
+              "shareholding": [
+                {
+                  "numberOfShares": "100",
+                  "shareAllocation": [
+                    {
+                      "allocation": "25",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-24T12:43:52",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Ying",
+                              "fullName": "Ying  LI",
+                              "lastName": "LI",
+                              "middleNames": null
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "director",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "25",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-24T12:43:52",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Katrina",
+                              "fullName": "Katrina Frances HOPE",
+                              "lastName": "HOPE",
+                              "middleNames": "Frances"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "director",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "50",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-24T12:43:52",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Charles",
+                              "fullName": "Charles Wijaya TJOKRO",
+                              "lastName": "TJOKRO",
+                              "middleNames": "Wijaya"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "director",
+                          "vacationDate": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "stockExchangeListed": null
+            }
+          ],
+          "emailAddress": [
+            {
+              "emailAddress": null,
+              "emailPurpose": null,
+              "emailPurposeDescription": null,
+              "startDate": null,
+              "uniqueIdentifier": null
+            }
+          ],
+          "entityName": "WORLDWIDE IPG LIMITED",
+          "entityNames": [
+            {
+              "endDate": null,
+              "entityName": "WORLDWIDE IPG LIMITED",
+              "startDate": "2017-05-17T14:09:27"
+            }
+          ],
+          "entityStatus": [
+            {
+              "comment": null,
+              "endDate": null,
+              "entityStatus": "50",
+              "startDate": "2017-05-24T12:43:52",
+              "statusReasonCode": null
+            }
+          ],
+          "entityStatusCode": "50",
+          "entityStatusDescription": "Registered",
+          "entityTypeCode": "LTD",
+          "entityTypeDescription": "NZ Limited Company",
+          "gstEffectiveDate": null,
+          "gstStatus": null,
+          "historicShareholder": [],
+          "industryClassification": [],
+          "insolvencyDetails": [],
+          "lastUpdatedDate": "2018-08-14T09:55:23",
+          "locationIdentifier": null,
+          "nzbn": "9429046138453",
+          "otherAddress": [],
+          "phoneNumber": [],
+          "physicalAddress": [
+            {
+              "address1": "409 Great North Road",
+              "address2": "Grey Lynn",
+              "address3": "Auckland",
+              "address4": null,
+              "careOf": null,
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "88017",
+              "postCode": "1021",
+              "startDate": "2017-05-24T12:43:52",
+              "uniqueIdentifier": null
+            }
+          ],
+          "postalAddress": [],
+          "principalPlaceOfActivity": [],
+          "privacySettings": null,
+          "registeredAddress": [
+            {
+              "address1": "409 Great North Road",
+              "address2": "Grey Lynn",
+              "address3": "Auckland",
+              "address4": null,
+              "careOf": null,
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "88017",
+              "postCode": "1021",
+              "startDate": "2017-05-24T12:43:52",
+              "uniqueIdentifier": null
+            }
+          ],
+          "registrationDate": "2017-05-24T12:43:52",
+          "roles": [
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Ying",
+                  "lastName": "LI",
+                  "middleNames": null,
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "2017-05-24T12:43:52",
+              "uniqueIdentifier": null
+            },
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Katrina",
+                  "lastName": "HOPE",
+                  "middleNames": "Frances",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "2017-05-24T12:43:52",
+              "uniqueIdentifier": null
+            },
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Charles",
+                  "lastName": "TJOKRO",
+                  "middleNames": "Wijaya",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "2017-05-24T12:43:51",
+              "uniqueIdentifier": null
+            }
+          ],
+          "sourceRegister": "LTD",
+          "sourceRegisterUniqueIdentifier": "6285868",
+          "startDate": "2017-05-24T12:43:52",
+          "supportingInformation": null,
+          "tradingNames": [],
+          "ultimateHoldingCompany": [
+            {
+              "country": null,
+              "effectiveDate": null,
+              "name": null,
+              "number": null,
+              "nzbn": null,
+              "type": null,
+              "ultimateHoldingCompanyAddress": [
+                {
+                  "address1": null,
+                  "address2": null,
+                  "address3": null,
+                  "address4": null,
+                  "careOf": null,
+                  "countryCode": null,
+                  "description": null,
+                  "endDate": null,
+                  "pafId": null,
+                  "postCode": null,
+                  "startDate": null,
+                  "uniqueIdentifier": null
+                }
+              ],
+              "yn": "false"
+            }
+          ],
+          "website": []
+        },
+        {
+          "australianBusinessNumber": null,
+          "australianCompanyNumber": null,
+          "australianServiceAddress": null,
+          "company": [
+            {
+              "annualReturnFilingMonth": "7",
+              "annualReturnLastFiled": "2013-07-18T17:18:09",
+              "countryOfOrigin": null,
+              "extensiveShareholding": "false",
+              "financialReportFilingMonth": null,
+              "hasConstitutionFiled": "true",
+              "nzsxCode": null,
+              "overseasCompany": "false",
+              "shareholding": [
+                {
+                  "numberOfShares": "1000",
+                  "shareAllocation": [
+                    {
+                      "allocation": "500",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "1993-09-28T00:00:00",
+                          "individualShareholder": [
+                            {
+                              "firstName": "RICHARD",
+                              "fullName": "RICHARD SABA FARRY",
+                              "lastName": "FARRY",
+                              "middleNames": "SABA"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "500",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "1993-09-28T00:00:00",
+                          "individualShareholder": [
+                            {
+                              "firstName": "MALCOLM",
+                              "fullName": "MALCOLM SABA FARRY",
+                              "lastName": "FARRY",
+                              "middleNames": "SABA"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "individual",
+                          "vacationDate": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "stockExchangeListed": null
+            }
+          ],
+          "emailAddress": [
+            {
+              "emailAddress": null,
+              "emailPurpose": null,
+              "emailPurposeDescription": null,
+              "startDate": null,
+              "uniqueIdentifier": null
+            }
+          ],
+          "entityName": "CARGILLS PROPERTIES LIMITED",
+          "entityNames": [
+            {
+              "endDate": null,
+              "entityName": "CARGILLS PROPERTIES LIMITED",
+              "startDate": "1993-09-28T00:00:00"
+            }
+          ],
+          "entityStatus": [
+            {
+              "comment": null,
+              "endDate": "2014-02-25T10:29:56",
+              "entityStatus": "50",
+              "startDate": "1993-09-28T00:00:00",
+              "statusReasonCode": null
+            },
+            {
+              "comment": null,
+              "endDate": null,
+              "entityStatus": "80",
+              "startDate": "2014-02-25T10:29:56",
+              "statusReasonCode": null
+            }
+          ],
+          "entityStatusCode": "80",
+          "entityStatusDescription": "Removed",
+          "entityTypeCode": "LTD",
+          "entityTypeDescription": "NZ Limited Company",
+          "gstEffectiveDate": null,
+          "gstStatus": null,
+          "historicShareholder": [],
+          "industryClassification": [],
+          "insolvencyDetails": [],
+          "lastUpdatedDate": "2014-02-25T10:29:56",
+          "locationIdentifier": null,
+          "nzbn": "9429038694134",
+          "otherAddress": [],
+          "phoneNumber": [],
+          "physicalAddress": [
+            {
+              "address1": "199 High Street",
+              "address2": "Dunedin",
+              "address3": null,
+              "address4": null,
+              "careOf": null,
+              "countryCode": null,
+              "endDate": "2005-07-10T00:00:00",
+              "pafID": null,
+              "postCode": null,
+              "startDate": "1997-05-16T00:00:00",
+              "uniqueIdentifier": null
+            },
+            {
+              "address1": "6th Floor",
+              "address2": "Forsyth Barr House",
+              "address3": "The Octagon, Dunedin",
+              "address4": null,
+              "careOf": null,
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": null,
+              "postCode": null,
+              "startDate": "2005-07-10T00:00:00",
+              "uniqueIdentifier": null
+            }
+          ],
+          "postalAddress": [],
+          "principalPlaceOfActivity": [],
+          "privacySettings": null,
+          "registeredAddress": [
+            {
+              "address1": "6th Floor",
+              "address2": "Forsyth Barr House",
+              "address3": "The Octagon, Dunedin",
+              "address4": null,
+              "careOf": null,
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": null,
+              "postCode": null,
+              "startDate": "2005-07-10T00:00:00",
+              "uniqueIdentifier": null
+            },
+            {
+              "address1": "199 High Street",
+              "address2": "Dunedin",
+              "address3": null,
+              "address4": null,
+              "careOf": null,
+              "countryCode": null,
+              "endDate": "2005-07-10T00:00:00",
+              "pafID": null,
+              "postCode": null,
+              "startDate": "1997-05-16T00:00:00",
+              "uniqueIdentifier": null
+            }
+          ],
+          "registrationDate": "1993-09-28T00:00:00",
+          "roles": [
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Malcolm",
+                  "lastName": "FARRY",
+                  "middleNames": "Saba",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "1993-09-28T00:00:00",
+              "uniqueIdentifier": null
+            },
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Richard",
+                  "lastName": "FARRY",
+                  "middleNames": "Saba",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "1993-09-28T00:00:00",
+              "uniqueIdentifier": null
+            }
+          ],
+          "sourceRegister": "LTD",
+          "sourceRegisterUniqueIdentifier": "628587",
+          "startDate": "1993-09-28T00:00:00",
+          "supportingInformation": null,
+          "tradingNames": [],
+          "ultimateHoldingCompany": [],
+          "website": []
+        },
+        {
+          "australianBusinessNumber": null,
+          "australianCompanyNumber": null,
+          "australianServiceAddress": null,
+          "company": [
+            {
+              "annualReturnFilingMonth": "10",
+              "annualReturnLastFiled": null,
+              "countryOfOrigin": null,
+              "extensiveShareholding": "false",
+              "financialReportFilingMonth": null,
+              "hasConstitutionFiled": "false",
+              "nzsxCode": null,
+              "overseasCompany": "false",
+              "shareholding": [
+                {
+                  "numberOfShares": "100",
+                  "shareAllocation": [
+                    {
+                      "allocation": "100",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-23T14:53:55",
+                          "individualShareholder": [
+                            {
+                              "firstName": "William",
+                              "fullName": "William Nelson CHAMBERLAIN",
+                              "lastName": "CHAMBERLAIN",
+                              "middleNames": "Nelson"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "director",
+                          "vacationDate": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "stockExchangeListed": null
+            }
+          ],
+          "emailAddress": [
+            {
+              "emailAddress": null,
+              "emailPurpose": null,
+              "emailPurposeDescription": null,
+              "startDate": null,
+              "uniqueIdentifier": null
+            }
+          ],
+          "entityName": "KOLOTEX FEILDING LIMITED",
+          "entityNames": [
+            {
+              "endDate": null,
+              "entityName": "KOLOTEX FEILDING LIMITED",
+              "startDate": "2017-05-17T14:12:20"
+            }
+          ],
+          "entityStatus": [
+            {
+              "comment": null,
+              "endDate": null,
+              "entityStatus": "50",
+              "startDate": "2017-05-23T14:53:55",
+              "statusReasonCode": null
+            }
+          ],
+          "entityStatusCode": "50",
+          "entityStatusDescription": "Registered",
+          "entityTypeCode": "LTD",
+          "entityTypeDescription": "NZ Limited Company",
+          "gstEffectiveDate": null,
+          "gstStatus": null,
+          "historicShareholder": [],
+          "industryClassification": [
+            {
+              "classificationCode": "G427940",
+              "classificationDescription": "G427940 Gift shop nec",
+              "uniqueIdentifier": null
+            }
+          ],
+          "insolvencyDetails": [],
+          "lastUpdatedDate": "2019-01-18T12:20:19",
+          "locationIdentifier": null,
+          "nzbn": "9429046145994",
+          "otherAddress": [],
+          "phoneNumber": [],
+          "physicalAddress": [
+            {
+              "address1": "2b/236 Oriental Parade",
+              "address2": null,
+              "address3": "Wellington",
+              "address4": null,
+              "careOf": "N Chamberlain",
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": null,
+              "postCode": "6011",
+              "startDate": "2017-05-23T14:53:55",
+              "uniqueIdentifier": null
+            }
+          ],
+          "postalAddress": [],
+          "principalPlaceOfActivity": [],
+          "privacySettings": null,
+          "registeredAddress": [
+            {
+              "address1": "2b/236 Oriental Parade",
+              "address2": null,
+              "address3": "Wellington",
+              "address4": null,
+              "careOf": "N Chamberlain",
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": null,
+              "postCode": "6011",
+              "startDate": "2017-05-23T14:53:55",
+              "uniqueIdentifier": null
+            }
+          ],
+          "registrationDate": "2017-05-23T14:53:55",
+          "roles": [
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "William",
+                  "lastName": "CHAMBERLAIN",
+                  "middleNames": "Nelson",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "2017-05-23T14:53:55",
+              "uniqueIdentifier": null
+            }
+          ],
+          "sourceRegister": "LTD",
+          "sourceRegisterUniqueIdentifier": "6285870",
+          "startDate": "2017-05-23T14:53:55",
+          "supportingInformation": null,
+          "tradingNames": [],
+          "ultimateHoldingCompany": [
+            {
+              "country": null,
+              "effectiveDate": null,
+              "name": null,
+              "number": null,
+              "nzbn": null,
+              "type": null,
+              "ultimateHoldingCompanyAddress": [
+                {
+                  "address1": null,
+                  "address2": null,
+                  "address3": null,
+                  "address4": null,
+                  "careOf": null,
+                  "countryCode": null,
+                  "description": null,
+                  "endDate": null,
+                  "pafId": null,
+                  "postCode": null,
+                  "startDate": null,
+                  "uniqueIdentifier": null
+                }
+              ],
+              "yn": "false"
+            }
+          ],
+          "website": []
+        },
+        {
+          "australianBusinessNumber": null,
+          "australianCompanyNumber": null,
+          "australianServiceAddress": null,
+          "company": [
+            {
+              "annualReturnFilingMonth": "5",
+              "annualReturnLastFiled": null,
+              "countryOfOrigin": null,
+              "extensiveShareholding": "false",
+              "financialReportFilingMonth": null,
+              "hasConstitutionFiled": "false",
+              "nzsxCode": null,
+              "overseasCompany": "false",
+              "shareholding": [
+                {
+                  "numberOfShares": "100",
+                  "shareAllocation": [
+                    {
+                      "allocation": "75",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-22T09:04:50",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Kylie",
+                              "fullName": "Kylie Michelle ROD",
+                              "lastName": "ROD",
+                              "middleNames": "Michelle"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "director",
+                          "vacationDate": null
+                        }
+                      ]
+                    },
+                    {
+                      "allocation": "25",
+                      "shareholder": [
+                        {
+                          "appointmentDate": "2017-05-22T09:04:50",
+                          "individualShareholder": [
+                            {
+                              "firstName": "Bruce",
+                              "fullName": "Bruce Richard NEEDHAM",
+                              "lastName": "NEEDHAM",
+                              "middleNames": "Richard"
+                            }
+                          ],
+                          "otherShareholder": [],
+                          "shareholderAddress": [],
+                          "type": "director",
+                          "vacationDate": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "stockExchangeListed": null
+            }
+          ],
+          "emailAddress": [
+            {
+              "emailAddress": null,
+              "emailPurpose": null,
+              "emailPurposeDescription": null,
+              "startDate": null,
+              "uniqueIdentifier": null
+            }
+          ],
+          "entityName": "LEAKFIX NZ LIMITED",
+          "entityNames": [
+            {
+              "endDate": null,
+              "entityName": "LEAKFIX NZ LIMITED",
+              "startDate": "2017-05-17T14:12:48"
+            }
+          ],
+          "entityStatus": [
+            {
+              "comment": null,
+              "endDate": null,
+              "entityStatus": "50",
+              "startDate": "2017-05-22T00:00:00",
+              "statusReasonCode": null
+            }
+          ],
+          "entityStatusCode": "50",
+          "entityStatusDescription": "Registered",
+          "entityTypeCode": "LTD",
+          "entityTypeDescription": "NZ Limited Company",
+          "gstEffectiveDate": null,
+          "gstStatus": null,
+          "historicShareholder": [],
+          "industryClassification": [
+            {
+              "classificationCode": "E324510",
+              "classificationDescription": "E324510 Glazing services",
+              "uniqueIdentifier": null
+            }
+          ],
+          "insolvencyDetails": [],
+          "lastUpdatedDate": "2018-09-27T10:18:27",
+          "locationIdentifier": null,
+          "nzbn": "9429046143006",
+          "otherAddress": [
+            {
+              "address1": "Suite 4, 2b/1 William Pickering Dr",
+              "address2": "Albany",
+              "address3": "Auckland",
+              "address4": null,
+              "careOf": "Accounting North Ltd",
+              "countryCode": "NZ",
+              "description": "Address for Records",
+              "endDate": null,
+              "pafID": null,
+              "postCode": "0632",
+              "startDate": "2017-05-22T09:04:50",
+              "uniqueIdentifier": null
+            },
+            {
+              "address1": "Suite 4, 2b/1 William Pickering Dr",
+              "address2": "Albany",
+              "address3": "Auckland",
+              "address4": null,
+              "careOf": "Accounting North Ltd",
+              "countryCode": "NZ",
+              "description": "Address for Records",
+              "endDate": null,
+              "pafID": null,
+              "postCode": "0632",
+              "startDate": null,
+              "uniqueIdentifier": null
+            }
+          ],
+          "phoneNumber": [],
+          "physicalAddress": [
+            {
+              "address1": "32 Infidel Place",
+              "address2": "Torbay",
+              "address3": "Auckland",
+              "address4": null,
+              "careOf": null,
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "1335323",
+              "postCode": "0630",
+              "startDate": "2017-05-22T09:04:50",
+              "uniqueIdentifier": null
+            }
+          ],
+          "postalAddress": [],
+          "principalPlaceOfActivity": [],
+          "privacySettings": null,
+          "registeredAddress": [
+            {
+              "address1": "32 Infidel Place",
+              "address2": "Torbay",
+              "address3": "Auckland",
+              "address4": null,
+              "careOf": null,
+              "countryCode": "NZ",
+              "endDate": null,
+              "pafID": "1335323",
+              "postCode": "0630",
+              "startDate": "2017-05-22T09:04:50",
+              "uniqueIdentifier": null
+            }
+          ],
+          "registrationDate": "2017-05-22T00:00:00",
+          "roles": [
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Bruce",
+                  "lastName": "NEEDHAM",
+                  "middleNames": "Richard",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "2017-05-22T09:04:50",
+              "uniqueIdentifier": null
+            },
+            {
+              "acn": null,
+              "asicDirectorshipYn": "false",
+              "asicName": null,
+              "endDate": null,
+              "roleAddress": [],
+              "roleAsicAddress": [],
+              "roleEntity": null,
+              "rolePerson": [
+                {
+                  "firstName": "Kylie",
+                  "lastName": "ROD",
+                  "middleNames": "Michelle",
+                  "title": null
+                }
+              ],
+              "roleStatus": "ACTIVE",
+              "roleType": "Director",
+              "startDate": "2017-05-22T09:04:49",
+              "uniqueIdentifier": null
+            }
+          ],
+          "sourceRegister": "LTD",
+          "sourceRegisterUniqueIdentifier": "6285871",
+          "startDate": "2017-05-22T00:00:00",
+          "supportingInformation": null,
+          "tradingNames": [],
+          "ultimateHoldingCompany": [
+            {
+              "country": null,
+              "effectiveDate": null,
+              "name": null,
+              "number": null,
+              "nzbn": null,
+              "type": null,
+              "ultimateHoldingCompanyAddress": [
+                {
+                  "address1": null,
+                  "address2": null,
+                  "address3": null,
+                  "address4": null,
+                  "careOf": null,
+                  "countryCode": null,
+                  "description": null,
+                  "endDate": null,
+                  "pafId": null,
+                  "postCode": null,
+                  "startDate": null,
+                  "uniqueIdentifier": null
+                }
+              ],
+              "yn": "false"
+            }
+          ],
+          "website": []
+        }
+      ]
+    }
+  }
+
+
