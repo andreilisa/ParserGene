@@ -18,33 +18,9 @@ import java.util.*;
 public class JsonService {
     @Value("${reader.keys}")
     private String keys;
+
     @Autowired
     private JsonRepository jsonMapper;
-
-    public void parseJsonElement(JsonElement jsonElement) {
-        if (jsonElement.isJsonArray()) {
-            parseJsonArray(jsonElement.getAsJsonArray());
-        } else if (jsonElement.isJsonObject()) {
-            parseJsonObject(jsonElement.getAsJsonObject());
-        }
-    }
-
-    public void parseJsonArray(JsonArray array) {
-        for (JsonElement value : array) {
-            parseJsonElement(value);
-        }
-    }
-
-    public void parseJsonObject(JsonObject object) {
-        Set<Map.Entry<String, JsonElement>> members = object.entrySet();
-        for (Map.Entry<String, JsonElement> value : members) {
-            for (String key : keys.split(",")) {
-                if (value.getKey().contains(key))
-                    System.out.println(value.getValue());
-                parseJsonElement(value.getValue());
-            }
-        }
-    }
 
     public void write() throws IOException {
         InputStream inputStream = new FileInputStream("C:\\Users\\andrei.lisa\\Folder\\doc1.json");
