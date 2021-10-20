@@ -1,3 +1,5 @@
+
+
 package com.example.demo.service;
 
 import com.example.demo.mapper.JsonRepository;
@@ -18,12 +20,14 @@ import java.util.*;
 public class JsonService {
     @Value("${reader.keys}")
     private String keys;
+    @Value("${reader.keyArr}")
+    private String keysArr;
 
     @Autowired
     private JsonRepository jsonMapper;
 
     public void write() throws IOException {
-        InputStream inputStream = new FileInputStream("C:\\Users\\andrei.lisa\\Folder\\doc1.json");
+        InputStream inputStream = new FileInputStream("E:\\Folder\\doc1.json");
         Reader inputStreamReader = new InputStreamReader(inputStream);
         JsonReader jsonReader = new JsonReader(inputStreamReader);
 
@@ -37,21 +41,31 @@ public class JsonService {
             Object obj = gson.fromJson(jsonReader, Object.class);
             StringBuilder builder = new StringBuilder();
 
-            builder.append("insert into json2 (").append(keys).append(")").append("values(");
+            builder.append("insert into json3 (").append(keys).append(",industryClassification").append(")").append("values(");
             for (String key : keys.split(",")) {
                 String value = JsonPath.read(obj, key);
                 builder.append("'").append(value).append("',");
+            }
+            for (String key : keysArr.split(";")) {
+                List<String> value = JsonPath.read(obj, key);
+                builder.append("'").append(value).append("',");
 
             }
-            builder.deleteCharAt(builder.length()-1);
-            builder.append(")");
-            jsonMapper.save(builder.toString());
+            for (int index = 0; index < builder.length(); index++) {
+                if (builder.charAt(index) == '=') {
+                    builder.setCharAt(index, ':');
+                }
+            }
+                builder.deleteCharAt(builder.length() - 1);
+                builder.append(")");
+//            jsonMapper.save(builder.toString());
 
-            System.out.println(builder);
+                System.out.println(builder);
 
 
             }
         }
 
     }
+
 
