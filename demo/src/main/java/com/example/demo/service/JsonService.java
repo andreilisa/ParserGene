@@ -41,24 +41,24 @@ public class JsonService {
             Object obj = gson.fromJson(jsonReader, Object.class);
             StringBuilder builder = new StringBuilder();
 
-            builder.append("insert into json3 (").append(keys).append(",industryClassification").append(")").append("values(");
+            builder.append("insert into json3 (").append(keys).append(keysArr).append(")").append("values(");
             for (String key : keys.split(",")) {
                 String value = JsonPath.read(obj, key);
                 builder.append("'").append(value).append("',");
             }
             for (String key : keysArr.split(";")) {
                 List<String> value = JsonPath.read(obj, key);
-                builder.append("'").append(value).append("',");
+                builder.append("'").append("\"").append(value).append("\"").append("',");
 
             }
-            for (int index = 0; index < builder.length(); index++) {
-                if (builder.charAt(index) == '=') {
-                    builder.setCharAt(index, ':');
+            for (int i = 0; i < builder.length(); i++) {
+                if (builder.charAt(i) == '=') {
+                    builder.setCharAt(i, ':');
                 }
             }
                 builder.deleteCharAt(builder.length() - 1);
                 builder.append(")");
-//            jsonMapper.save(builder.toString());
+            jsonMapper.save(builder.toString());
 
                 System.out.println(builder);
 
