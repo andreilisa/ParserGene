@@ -58,7 +58,6 @@
           "entityName": "HAMMER AND NAILS CONSTRUCTION LIMITED",
           "entityNames": [
             {
-              "endDate": null,
               "entityName": "HAMMER AND NAILS CONSTRUCTION LIMITED",
               "startDate": "2017-05-17T13:19:29"
             }
@@ -368,7 +367,6 @@
           "entityName": "AGRILINE LIMITED",
           "entityNames": [
             {
-              "endDate": null,
               "entityName": "AGRILINE LIMITED",
               "startDate": "2017-05-17T13:23:51"
             }
@@ -649,7 +647,6 @@
           "entityName": "AGRILINE LIMITED",
           "entityNames": [
             {
-              "endDate": null,
               "entityName": "AGRILINE LIMITED",
               "startDate": "2017-05-17T13:23:51"
             }
@@ -850,7 +847,6 @@
           "entityName": "PETROUS ENTERPRISES LIMITED",
           "entityNames": [
             {
-              "endDate": null,
               "entityName": "PETROUS ENTERPRISES LIMITED",
               "startDate": "1993-09-30T00:00:00"
             }
@@ -1102,7 +1098,6 @@
           "entityName": "BEANZ RS LIMITED",
           "entityNames": [
             {
-              "endDate": null,
               "entityName": "BEANZ RS LIMITED",
               "startDate": "2017-05-17T13:48:31"
             }
@@ -1363,7 +1358,6 @@
           "entityName": "WORLDWIDE IPG LIMITED",
           "entityNames": [
             {
-              "endDate": null,
               "entityName": "WORLDWIDE IPG LIMITED",
               "startDate": "2017-05-17T14:09:27"
             }
@@ -1600,7 +1594,6 @@
           "entityName": "CARGILLS PROPERTIES LIMITED",
           "entityNames": [
             {
-              "endDate": null,
               "entityName": "CARGILLS PROPERTIES LIMITED",
               "startDate": "1993-09-28T00:00:00"
             }
@@ -1753,14 +1746,14 @@
           "australianServiceAddress": null,
           "company": [
             {
-              "annualReturnFilingMonth": "10",
+              "annualReturnFilingMonth": 10,
               "annualReturnLastFiled": null,
               "countryOfOrigin": null,
-              "extensiveShareholding": "false",
+              "extensiveShareholding": false,
               "financialReportFilingMonth": null,
-              "hasConstitutionFiled": "false",
+              "hasConstitutionFiled": false,
               "nzsxCode": null,
-              "overseasCompany": "false",
+              "overseasCompany": false,
               "shareholding": [
                 {
                   "numberOfShares": "100",
@@ -1803,7 +1796,6 @@
           "entityName": "KOLOTEX FEILDING LIMITED",
           "entityNames": [
             {
-              "endDate": null,
               "entityName": "KOLOTEX FEILDING LIMITED",
               "startDate": "2017-05-17T14:12:20"
             }
@@ -2004,7 +1996,6 @@
           "entityName": "LEAKFIX NZ LIMITED",
           "entityNames": [
             {
-              "endDate": null,
               "entityName": "LEAKFIX NZ LIMITED",
               "startDate": "2017-05-17T14:12:48"
             }

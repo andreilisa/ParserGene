@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="jsonDate@localhost" uuid="0e4beded-f898-42a4-8ee4-90d57ae4a5fd">
+    <data-source source="LOCAL" name="jsonDate@localhost [2]" uuid="19aadd4d-3966-4852-be9f-4e0a52e2429b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/jsonDate</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="jsonDate@localhost" uuid="4642ee89-0a43-4dcf-bace-5585ca59b630">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
