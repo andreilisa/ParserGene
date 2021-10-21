@@ -122,19 +122,6 @@
               "startDate": "2017-05-19T09:33:10",
               "uniqueIdentifier": null
             },
-            {
-              "address1": "1509 Dairy Flat Highway",
-              "address2": "Rd 4",
-              "address3": "Dairy Flat",
-              "address4": null,
-              "careOf": "Mishelle Augustine",
-              "countryCode": "NZ",
-              "endDate": null,
-              "pafID": "2027457",
-              "postCode": "0794",
-              "startDate": "2018-09-27T00:00:00",
-              "uniqueIdentifier": null
-            }
           ],
           "postalAddress": [],
           "principalPlaceOfActivity": [],

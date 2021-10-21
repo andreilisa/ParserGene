@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import com.example.demo.service.JsonService;
+import net.minidev.json.parser.ParseException;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.Banner;
@@ -24,7 +25,7 @@ public class DemoApplication implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws IOException {
+    public void run(String... args) throws IOException, ParseException {
 
         jsonService.write();
     }
