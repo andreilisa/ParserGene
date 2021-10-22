@@ -12,20 +12,16 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 @Component
 public class JsonService {
-    private final String val = "object";
-    //    @Value("${reader.keys}")
-//    private String keys;
+
     @Autowired
     private KeyConfig keyConfig;
+
     @Value("${file.path}")
     private String path;
+
     @Autowired
     private JsonRepository jsonMapper;
 
@@ -40,6 +36,7 @@ public class JsonService {
         jsonReader.nextName();
         jsonReader.beginArray();
 
+        String val = "object";
         System.out.println(val);
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         while (jsonReader.hasNext()) {
@@ -47,9 +44,10 @@ public class JsonService {
             String jsonInString = gson.toJson(obj);
             StringBuilder builder = new StringBuilder();
             builder.append("insert into json2 (").append(String.join(", ", keyConfig.getKeys().keySet())).append(")").append("values(");
+
             for (String key : keyConfig.getKeys().keySet()) {
                 String value = keyConfig.getKeys().get(key);
-                if (value.equals("object")) {
+                if (value.equals(val)) {
                     builder.append("'").append(getValue(obj, key)).append("',");
                 } else {
                     builder.append("'").append(JsonPath.read(jsonInString, key).toString()).append("',");
@@ -60,14 +58,15 @@ public class JsonService {
             builder.append(")");
             jsonMapper.save(builder.toString());
             System.out.println(builder);
+
         }
+
     }
 
 
     private <T> String getValue(T object, String key) {
         try {
             return JsonPath.read(object, key);
-
         } catch (PathNotFoundException e) {
             return null;
         }
