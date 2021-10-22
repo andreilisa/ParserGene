@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/jsonDate
+    password: free
+  main:
+    web-application-type: none
+file:
+  path: C:\Users\andrei.lisa\Folder\doc1.json
+reader:
+  keys:
+     rere: object
+     entityName: object
+     entityTypeDescription: object
+     nzbn: object
+     lastUpdatedDate: object
+     sourceRegisterUniqueIdentifier: object
+     industryClassification: array
+     physicalAddress: array
+     registeredAddress: array
+
+server:
+  error:
+    whitelabel:
+      enabled: 'false'
