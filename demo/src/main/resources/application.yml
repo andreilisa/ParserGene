@@ -10,7 +10,6 @@ file:
   path: C:\Users\andrei.lisa\Folder\doc1.json
 reader:
   keys:
-     rere: object
      entityName: object
      entityTypeDescription: object
      nzbn: object

@@ -6,12 +6,14 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
 import com.jayway.jsonpath.JsonPath;
-import com.jayway.jsonpath.PathNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 @Component
 public class JsonService {
@@ -36,21 +38,22 @@ public class JsonService {
         jsonReader.nextName();
         jsonReader.beginArray();
 
-        String val = "object";
-        System.out.println(val);
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
+
         while (jsonReader.hasNext()) {
             Object obj = gson.fromJson(jsonReader, Object.class);
             String jsonInString = gson.toJson(obj);
             StringBuilder builder = new StringBuilder();
             builder.append("insert into json2 (").append(String.join(", ", keyConfig.getKeys().keySet())).append(")").append("values(");
 
-            for (String key : keyConfig.getKeys().keySet()) {
-                String value = keyConfig.getKeys().get(key);
-                if (value.equals(val)) {
-                    builder.append("'").append(getValue(obj, key)).append("',");
+            Set<Map.Entry<String, String>> map = keyConfig.getKeys().entrySet();
+            for (Map.Entry<String, String> keyVal : map) {
+                if (keyVal.getValue().equals("object")) {
+                    String value = JsonPath.read(obj, keyVal.getKey());
+                    builder.append("'").append(value).append("',");
                 } else {
-                    builder.append("'").append(JsonPath.read(jsonInString, key).toString()).append("',");
+                    List<String> values = JsonPath.read(jsonInString, keyVal.getKey());
+                    builder.append("'").append(values).append("',");
                 }
             }
 
@@ -58,19 +61,6 @@ public class JsonService {
             builder.append(")");
             jsonMapper.save(builder.toString());
             System.out.println(builder);
-
-        }
-
-    }
-
-
-    private <T> String getValue(T object, String key) {
-        try {
-            return JsonPath.read(object, key);
-        } catch (PathNotFoundException e) {
-            return null;
         }
     }
 }
-
-
