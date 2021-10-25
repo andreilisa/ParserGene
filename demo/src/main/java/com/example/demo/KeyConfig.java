@@ -11,5 +11,5 @@ import java.util.Map;
 @Configuration
 @ConfigurationProperties("reader")
 public class KeyConfig {
-    private Map<String, String> keys;
+    private Map<String, Type> keys;
 }

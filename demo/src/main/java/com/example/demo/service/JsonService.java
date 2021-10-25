@@ -1,6 +1,7 @@
 package com.example.demo.service;
 
 import com.example.demo.KeyConfig;
+import com.example.demo.Type;
 import com.example.demo.mapper.JsonRepository;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -46,14 +47,12 @@ public class JsonService {
             StringBuilder builder = new StringBuilder();
             builder.append("insert into json2 (").append(String.join(", ", keyConfig.getKeys().keySet())).append(")").append("values(");
 
-            Set<Map.Entry<String, String>> map = keyConfig.getKeys().entrySet();
-            for (Map.Entry<String, String> keyVal : map) {
-                if (keyVal.getValue().equals("object")) {
-                    String value = JsonPath.read(obj, keyVal.getKey());
-                    builder.append("'").append(value).append("',");
+            Set<Map.Entry<String, Type>> map = keyConfig.getKeys().entrySet();
+            for (Map.Entry<String, Type> keyVal : map) {
+                if (keyVal.getValue().equals(Type.OBJECT)) {
+                    builder.append("'").append(Type.OBJECT.readValue(JsonPath.read(obj, keyVal.getKey()))).append("',");
                 } else {
-                    List<String> values = JsonPath.read(jsonInString, keyVal.getKey());
-                    builder.append("'").append(values).append("',");
+                    builder.append("'").append(Type.ARRAY.readValue(JsonPath.read(jsonInString, keyVal.getKey()))).append("',");
                 }
             }
             builder.deleteCharAt(builder.length() - 1);
