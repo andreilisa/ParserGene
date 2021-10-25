@@ -12,7 +12,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -43,16 +42,15 @@ public class JsonService {
 
         while (jsonReader.hasNext()) {
             Object obj = gson.fromJson(jsonReader, Object.class);
-            String jsonInString = gson.toJson(obj);
             StringBuilder builder = new StringBuilder();
             builder.append("insert into json2 (").append(String.join(", ", keyConfig.getKeys().keySet())).append(")").append("values(");
 
             Set<Map.Entry<String, Type>> map = keyConfig.getKeys().entrySet();
             for (Map.Entry<String, Type> keyVal : map) {
                 if (keyVal.getValue().equals(Type.OBJECT)) {
-                    builder.append("'").append(Type.OBJECT.readValue(JsonPath.read(obj, keyVal.getKey()))).append("',");
+                    builder.append("'").append(Type.OBJECT.readValue(getValue(obj, keyVal.getKey()))).append("',");
                 } else {
-                    builder.append("'").append(Type.ARRAY.readValue(JsonPath.read(jsonInString, keyVal.getKey()))).append("',");
+                    builder.append("'").append(Type.ARRAY.readValue(getValue(obj, keyVal.getKey()))).append("',");
                 }
             }
             builder.deleteCharAt(builder.length() - 1);
@@ -60,5 +58,9 @@ public class JsonService {
             jsonMapper.save(builder.toString());
             System.out.println(builder);
         }
+    }
+
+    public <T> Object getValue(Object object, String key) {
+        return JsonPath.read(object, key);
     }
 }
