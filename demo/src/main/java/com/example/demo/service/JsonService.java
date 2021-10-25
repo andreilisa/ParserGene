@@ -47,11 +47,12 @@ public class JsonService {
 
             Set<Map.Entry<String, Type>> map = keyConfig.getKeys().entrySet();
             for (Map.Entry<String, Type> keyVal : map) {
-                if (keyVal.getValue().equals(Type.OBJECT)) {
-                    builder.append("'").append(Type.OBJECT.readValue(getValue(obj, keyVal.getKey()))).append("',");
-                } else {
-                    builder.append("'").append(Type.ARRAY.readValue(getValue(obj, keyVal.getKey()))).append("',");
-                }
+                keyVal.getValue().readValue(builder,obj,keyVal.getKey());
+//                if (keyVal.getValue().equals(Type.OBJECT)) {
+//                    builder.append("'").append(Type.OBJECT.readValue(getValue(obj, keyVal.getKey()))).append("',");
+//                } else {
+//                    builder.append("'").append(Type.ARRAY.readValue(getValue(obj, keyVal.getKey()))).append("',");
+//                }
             }
             builder.deleteCharAt(builder.length() - 1);
             builder.append(")");
@@ -60,7 +61,4 @@ public class JsonService {
         }
     }
 
-    public <T> Object getValue(Object object, String key) {
-        return JsonPath.read(object, key);
-    }
 }
