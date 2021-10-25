@@ -56,7 +56,6 @@ public class JsonService {
                     builder.append("'").append(values).append("',");
                 }
             }
-
             builder.deleteCharAt(builder.length() - 1);
             builder.append(")");
             jsonMapper.save(builder.toString());
