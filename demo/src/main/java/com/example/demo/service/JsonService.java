@@ -21,7 +21,6 @@ public class JsonService {
     @Autowired
     private KeyConfig keyConfig;
 
-
     @Value("${file.path}")
     private String path;
 
@@ -32,7 +31,7 @@ public class JsonService {
         InputStream inputStream = new FileInputStream(path);
         Reader inputStreamReader = new InputStreamReader(inputStream);
         JsonReader jsonReader = new JsonReader(inputStreamReader);
-
+    //If you want to read another JsonFile you need to change path to json: see documentation
         jsonReader.beginObject();
         jsonReader.nextName();
         jsonReader.beginObject();
@@ -40,6 +39,7 @@ public class JsonService {
         jsonReader.beginArray();
 
         return jsonReader;
+
     }
 
     public void write() throws IOException {
@@ -55,6 +55,7 @@ public class JsonService {
             for (Map.Entry<String, Type> keyVal : map) {
                 keyVal.getValue().readValue(builder, obj, keyVal.getKey());
             }
+
             builder.deleteCharAt(builder.length() - 1);
             builder.append(")");
             jsonMapper.save(builder.toString());
