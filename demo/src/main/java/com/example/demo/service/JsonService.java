@@ -31,7 +31,7 @@ public class JsonService {
         InputStream inputStream = new FileInputStream(path);
         Reader inputStreamReader = new InputStreamReader(inputStream);
         JsonReader jsonReader = new JsonReader(inputStreamReader);
-    //If you want to read another JsonFile you need to change path to json: see documentation
+    //If you want to read another JsonFile you need to change path to json: see documentation JsonReader
         jsonReader.beginObject();
         jsonReader.nextName();
         jsonReader.beginObject();
