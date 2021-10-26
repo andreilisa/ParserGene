@@ -9,5 +9,4 @@ public interface JsonRepository {
     @Insert("${result}")
     void save(String builder);
 
-
 }

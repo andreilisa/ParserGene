@@ -18,8 +18,9 @@ reader:
      industryClassification: array
      physicalAddress: array
      registeredAddress: array
-
+     roles : array
 server:
   error:
     whitelabel:
       enabled: 'false'
+
