@@ -24,7 +24,7 @@ server:
     whitelabel:
       enabled: 'false'
 json:
-  element:
+  elements:
     object,
     name,
     object,

@@ -37,8 +37,8 @@ public class JsonService {
         InputStream inputStream = new FileInputStream(path);
         Reader inputStreamReader = new InputStreamReader(inputStream);
         JsonReader jsonReader = new JsonReader(inputStreamReader);
-        List<TypeReader> list = javaConfigReader.getElement();
-        for (TypeReader value : list) {
+
+        for (TypeReader value : javaConfigReader.getElements()) {
             value.setJsonType(jsonReader);
         }
         return jsonReader;
