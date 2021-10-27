@@ -28,6 +28,7 @@ public class DemoApplication implements CommandLineRunner {
 
         jsonService.read();
         jsonService.write();
+
     }
 }
 

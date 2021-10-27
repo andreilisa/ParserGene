@@ -10,15 +10,15 @@ public enum Type {
     OBJECT {
         @Override
         public void readValue(StringBuilder builder, Object obj, String key) {
-            Type.append(builder,Type.getValue(obj,key).toString());
+            Type.append(builder, Type.getValue(obj, key).toString());
         }
     },
     ARRAY {
         @Override
         public void readValue(StringBuilder builder, Object obj, String key) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
-           String value = gson.toJson(Type.getValue(obj,key));
-           Type.append(builder,value);
+            String value = gson.toJson(Type.getValue(obj, key));
+            Type.append(builder, value);
         }
     };
 
@@ -34,8 +34,6 @@ public enum Type {
         }
     }
 
-
     public abstract void readValue(StringBuilder builder, Object obj, String key);
-
 
 }

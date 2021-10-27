@@ -10,17 +10,24 @@ file:
   path: C:\Users\andrei.lisa\Folder\doc1.json
 reader:
   keys:
-     entityName: object
-     entityTypeDescription: object
-     nzbn: object
-     lastUpdatedDate: object
-     sourceRegisterUniqueIdentifier: object
-     industryClassification: array
-     physicalAddress: array
-     registeredAddress: array
-     roles : array
+    entityName: object
+    entityTypeDescription: object
+    nzbn: object
+    lastUpdatedDate: object
+    sourceRegisterUniqueIdentifier: object
+    industryClassification: array
+    physicalAddress: array
+    registeredAddress: array
+    roles: array
 server:
   error:
     whitelabel:
       enabled: 'false'
+json:
+  element:
+    object,
+    name,
+    object,
+    name,
+    array
 
